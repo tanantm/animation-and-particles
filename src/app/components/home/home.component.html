@@ -1,0 +1,6 @@
+<div [@statusChange]="statusState"
+     (@statusChange.start)="onAnimationStarted($event)"
+     (@statusChange.done)="onAnimationDone($event)" class="gradetion_area"
+     [style.background-color]="bgcolor">
+</div>
+<ng-particles [id]="id" url="../../../assets/particles.json"></ng-particles>
