@@ -37,7 +37,7 @@ export class GetjsonService {
       // case 13:
       // case 14:
       // case 15:
-      //   return 'afretnoon';
+      //   return 'afternoon';
       // case 16:
       // case 17:
       //   return 'evening';
