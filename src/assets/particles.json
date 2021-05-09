@@ -2,7 +2,7 @@
   "autoPlay": true,
   "background": {
     "color": {
-      "value": ""
+      "value": "#000"
     },
     "image": "",
     "position": "",
@@ -14,7 +14,7 @@
     "composite": "destination-out",
     "cover": {
       "color": {
-        "value": "#fff"
+        "value": "#ff0"
       },
       "opacity": 1
     },
@@ -42,13 +42,13 @@
       },
       "onDiv": {
         "selectors": [],
-        "enable": false,
-        "mode": [],
+        "enable": true,
+        "mode": "repulse",
         "type": "circle"
       },
       "onHover": {
-        "enable": true,
-        "mode": "trail",
+        "enable": false,
+        "mode": "light",
         "parallax": {
           "enable": false,
           "force": 2,
@@ -242,9 +242,9 @@
   },
   "manualParticles": [],
   "motion": {
-    "disable": false,
+    "disable": true,
     "reduce": {
-      "factor": 4,
+      "factor": 10,
       "value": true
     }
   },
@@ -290,7 +290,7 @@
       }
     },
     "color": {
-      "value": "#f00",
+      "value": "#fff",
       "animation": {
         "h": {
           "count": 0,
@@ -364,11 +364,11 @@
       },
       "consent": false,
       "distance": 100,
-      "enable": true,
+      "enable": false,
       "frequency": 1,
       "opacity": 1,
       "shadow": {
-        "blur": 5,
+        "blur": true,
         "color": {
           "value": "#00ff00"
         },
@@ -455,7 +455,7 @@
       },
       "animation": {
         "count": 0,
-        "enable": true,
+        "enable": false,
         "speed": 0.5,
         "sync": false,
         "destroy": "none",
@@ -555,7 +555,7 @@
         "opacity": 1
       },
       "particles": {
-        "enable": false,
+        "enable": true,
         "frequency": 0.05,
         "opacity": 1
       }

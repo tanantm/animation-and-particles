@@ -1,11 +1,5 @@
 {
   "defaultBackColor": "rgba(0,0,255,.5)",
-  "dawnBackColor": "rgba(0,0,0,.3)",
-  "midnightBackColor": "rgba(39,43,87,.5)",
-  "noonBackColor": "rgba(199, 229, 252,.5)",
-  "afternoonBackColor": "rgba(114, 205, 247,.5)",
-  "nightBackColor": "rgba(79,94,117,.5)",
-  "sunsetBackColor":"rgba(191,217,171,.5)",
   "default": [
     {
       "backgroundColor": "#0000f0",
@@ -38,66 +32,6 @@
     {
       "backgroundColor": "#ff8000",
       "opacity": 0.5
-    }
-  ],
-  "midnight": [
-    {
-      "backgroundColor": "#272B56",
-      "opacity": 0.5
-    },
-    {
-      "backgroundColor": "#0b0b33",
-      "opacity": 0.5
-    },
-    {
-      "backgroundColor": "#020E34",
-      "opacity": 0.5
-    }
-  ],
-  "dawn": [
-    {
-      "backgroundColor": "#000000",
-      "opacity": 0.5
-    },
-    {
-      "backgroundColor": "#000000",
-      "opacity": 0.7
-    }
-  ],
-  "morning": [],
-  "noon": [
-    {
-      "backgroundColor": "#c7e5fc",
-      "opacity": 0.5
-    },
-    {
-      "backgroundColor": "#a0d8ef",
-      "opacity": 0.6
-    }
-  ],
-  "afternoon": [
-    {
-      "backgroundColor": "#72cdf7",
-      "opacity": 0.5
-    },
-    {
-      "backgroundColor": "#0095d9",
-      "opacity": 0.7
-    }
-  ],
-  "evening": [],
-  "sunset": [{
-    "backgroundColor": "#BFD9AB",
-    "opacity": 0.5
-  }],
-  "night": [
-    {
-      "backgroundColor": "#4E5E75",
-      "opacity": 0.5
-    },
-    {
-      "backgroundColor": "#000103",
-      "opacity": 0.8
     }
   ]
 }
