@@ -5,7 +5,7 @@ export module HomeAnimation {
 
   export const statusChange = trigger('statusChange', [
     transition('* <=> loop-state', [
-      animate('60s ease-in-out', keyframes(
+      animate('120s ease-in-out', keyframes(
         setStyle()
       ),
       )])
