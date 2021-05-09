@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
   isLoop = false;
   bgcolor: any = {};
   id = "tsparticles";
-  // particlesOptions = particle;
+  particlesUrl = '';
 
   constructor(private getjsonService: GetjsonService) { }
 
@@ -39,5 +39,9 @@ export class HomeComponent implements OnInit {
   onLoopState() {
     this.isLoop = true;
     this.statusState = 'loop-state';
+  }
+
+  particlesLoaded() {
+    return this.getjsonService.getBackColor()?.[0].includes('night') ? '../../../assets/particles-midnight.json' : '../../../assets/particles.json';
   }
 }
